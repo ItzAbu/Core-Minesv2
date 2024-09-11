@@ -1,0 +1,9 @@
+name: Core-Minesv2
+version: '${project.version}'
+main: org.itzabu.coreminesv2.Core_Minesv2
+api-version: '1.20'
+commands:
+  mines:
+    description: Core-Minesv2 Admin Panel
+    aliases: [minesv2]
+    permission: coremines.admin
